@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-css",
+  "name": "tailwind",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^1.4.6"
   }
 }
