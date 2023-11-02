@@ -10,19 +10,22 @@
     <!-- Apply any color on body ele -->
 
     <div class="grid md:grid-cols-3">
-      <div class="md:col-span-1">
-        <nav>
+      <div class="md:col-span-1 md:flex md:justify-end">
+        <nav class="text-right">
           <div>
             <h1 class="font-bold uppercase p-4 border-b border-gray-100">
               <a href="/" class="hover:text-gray-700">Food Ninjaa</a>
             </h1>
           </div>
-          <ul>
-            <li class="text-gray-700 font-bold">
-              <a href="#">
+          <ul class="text-sm mt-6">
+            <li class="text-gray-700 font-bold py-1">
+              <a
+                href="#"
+                class="px-4 flex justify-end border-r-4 border-primary"
+              >
                 <span>Home</span>
                 <svg
-                  class="w-5"
+                  class="w-5 ml-2"
                   data-darkreader-inline-stroke=""
                   fill="none"
                   stroke="currentColor"
@@ -42,11 +45,11 @@
           </ul>
 
           <ul>
-            <li>
-              <a href="#">
+            <li class="py-1">
+              <a href="#" class="px-4 flex justify-end border-r-4 border-white">
                 <span>About</span>
                 <svg
-                  class="w-5"
+                  class="w-5 ml-2"
                   data-darkreader-inline-stroke=""
                   fill="none"
                   stroke="currentColor"
@@ -66,11 +69,11 @@
           </ul>
 
           <ul>
-            <li>
-              <a href="#">
+            <li class="py-1">
+              <a href="#" class="px-4 flex justify-end border-r-4 border-white">
                 <span>Contact</span>
                 <svg
-                  class="w-5"
+                  class="w-5 ml-2"
                   data-darkreader-inline-stroke=""
                   fill="none"
                   stroke="currentColor"
@@ -219,7 +222,11 @@
           </div>
 
           <div class="flex justify-center">
-            <div class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner">Load more</div>
+            <div
+              class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner"
+            >
+              Load more
+            </div>
           </div>
         </div>
       </main>
