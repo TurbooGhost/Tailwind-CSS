@@ -1,4 +1,0 @@
-    <!-- Tailwind is a utility-first CSS framework -->
-
-    <!-- Examples -->
-    <!-- class="rounded shadow p-2 bg-white" -->
